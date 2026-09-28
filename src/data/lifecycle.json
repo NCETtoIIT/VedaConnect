@@ -1,0 +1,29 @@
+{
+  "stages": [
+    { "no": 1,  "name": "Profile Capture",   "group": "PARTICIPANT INTAKE", "hardGate": false },
+    { "no": 2,  "name": "IEC Submission",    "group": "REGULATORY & CTRI",  "hardGate": true,
+      "gateRule": "IEC approval ke bina protocol aage nahi badhega." },
+    { "no": 3,  "name": "IEC Approval",      "group": "REGULATORY & CTRI",  "hardGate": true,
+      "gateRule": "Approval letter attach karna zaroori hai." },
+    { "no": 4,  "name": "CTRI Registration", "group": "REGULATORY & CTRI",  "hardGate": true,
+      "gateRule": "Prospective rule — first patient enrol hone se PEHLE CTRI number." },
+    { "no": 5,  "name": "Site Activation",   "group": "PARTICIPANT INTAKE", "hardGate": false },
+    { "no": 6,  "name": "Recruitment",       "group": "PARTICIPANT INTAKE", "hardGate": true,
+      "gateRule": "Informed consent ke bina participant enrol nahi hoga." },
+    { "no": 7,  "name": "Treatment",         "group": "eCRF & VISITS",      "hardGate": false },
+    { "no": 8,  "name": "Follow-Up",         "group": "eCRF & VISITS",      "hardGate": false },
+    { "no": 9,  "name": "Database Lock",     "group": "CLOSE-OUT",          "hardGate": true,
+      "gateRule": "Safety + data quality clear hone tak DB lock nahi hoga." },
+    { "no": 10, "name": "Close-Out",         "group": "CLOSE-OUT",          "hardGate": false }
+  ],
+  "groups": ["PARTICIPANT INTAKE", "REGULATORY & CTRI", "eCRF & VISITS", "SAFETY (PV)", "CLOSE-OUT"],
+  "hardGateRules": [
+    "IEC approval ke bina protocol aage nahi badhega.",
+    "CTRI number ke bina Enrolment module LOCK.",
+    "Informed consent ke bina participant enrol nahi hoga.",
+    "SAE 24 ghante ke andar report nahi hui to case URGENT.",
+    "MedDRA coding (PT + SOC) ke bina case regulator ke paas nahi jaayega.",
+    "Protocol deviation ka CAPA bharne tak site pe naya patient enroll nahi.",
+    "Har change immutable ALCOA+ audit trail me hash ke saath — DELETE nahi."
+  ]
+}

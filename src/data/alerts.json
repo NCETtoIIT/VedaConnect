@@ -1,0 +1,100 @@
+{
+  "alerts": [
+    {
+      "id": "ALR-001",
+      "type": "ETHICS",
+      "severity": "HIGH",
+      "title": "IEC continuing review due in 12 days",
+      "detail": "AYU-003 · Dr. R. Iyer · Ethics Committee (IEC)",
+      "dueDate": "2026-10-10",
+      "studyId": "AYU-003",
+      "siteId": null,
+      "action": "Schedule continuing review submission",
+      "read": false
+    },
+    {
+      "id": "ALR-002",
+      "type": "CTRI",
+      "severity": "HIGH",
+      "title": "CTRI 6-monthly update overdue",
+      "detail": "AYU-007 · CTRI/2026/05/021003",
+      "dueDate": "2026-09-20",
+      "studyId": "AYU-007",
+      "siteId": null,
+      "action": "Submit registry update on CTRI portal",
+      "read": false
+    },
+    {
+      "id": "ALR-003",
+      "type": "MONITORING",
+      "severity": "MEDIUM",
+      "title": "Monitoring (SDV) visit overdue at 3 sites",
+      "detail": "AYU-003 · Bengaluru, Kochi, Jaipur",
+      "dueDate": "2026-08-02",
+      "studyId": "AYU-003",
+      "siteId": "SITE-02",
+      "action": "Assign CRA and close SDV",
+      "read": false
+    },
+    {
+      "id": "ALR-004",
+      "type": "SAFETY",
+      "severity": "HIGH",
+      "title": "SAE within 6 hours of statutory deadline",
+      "detail": "Case PV-2026-0031 · AYU-003 · SITE-02",
+      "dueDate": "2026-09-28",
+      "studyId": "AYU-003",
+      "siteId": "SITE-02",
+      "action": "Escalate to PV Officer immediately",
+      "read": false
+    },
+    {
+      "id": "ALR-005",
+      "type": "DATA_QUALITY",
+      "severity": "MEDIUM",
+      "title": "28 open data queries pending >14 days",
+      "detail": "AYU-003 · Sites: SITE-04, SITE-07, SITE-11",
+      "dueDate": "2026-09-30",
+      "studyId": "AYU-003",
+      "siteId": "SITE-04",
+      "action": "Assign data manager to resolve queries",
+      "read": false
+    },
+    {
+      "id": "ALR-006",
+      "type": "ETHICS",
+      "severity": "LOW",
+      "title": "IEC annual renewal reminder — 90 days ahead",
+      "detail": "AYU-001 · Dr. A. Sharma · IEC valid till 2027-02-28",
+      "dueDate": "2026-12-01",
+      "studyId": "AYU-001",
+      "siteId": null,
+      "action": "Prepare renewal documents",
+      "read": false
+    },
+    {
+      "id": "ALR-007",
+      "type": "CTRI",
+      "severity": "HIGH",
+      "title": "CTRI registration pending — enrolment cannot begin",
+      "detail": "AYU-012 · Dr. S. Deshpande · CTRI number PENDING",
+      "dueDate": "2026-10-01",
+      "studyId": "AYU-012",
+      "siteId": null,
+      "action": "Submit prospective registration on CTRI portal",
+      "read": false
+    },
+    {
+      "id": "ALR-008",
+      "type": "MONITORING",
+      "severity": "LOW",
+      "title": "Site initiation visit pending at 2 new sites",
+      "detail": "AYU-007 · Lucknow, Guwahati",
+      "dueDate": "2026-10-15",
+      "studyId": "AYU-007",
+      "siteId": null,
+      "action": "Schedule site initiation with CRA team",
+      "read": false
+    }
+  ]
+}

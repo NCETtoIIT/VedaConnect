@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "id": "PV-2026-0031",
+      "studyId": "AYU-003",
+      "siteId": "SITE-02",
+      "participantToken": "SYN-P00418",
+      "event": "Elevated liver enzymes (ALT 3x ULN)",
+      "serious": true,
+      "reportedAtUTC": "2026-09-28T13:15:00Z",
+      "deadlineHours": 24,
+      "meddraCoded": false,
+      "meddraPT": "",
+      "meddraSOC": "",
+      "causality": "NOT ASSESSED",
+      "status": "OPEN",
+      "escalated": false
+    },
+    {
+      "id": "PV-2026-0028",
+      "studyId": "AYU-003",
+      "siteId": "SITE-05",
+      "participantToken": "SYN-P00302",
+      "event": "Skin rash with itching",
+      "serious": false,
+      "reportedAtUTC": "2026-09-25T08:15:00Z",
+      "deadlineHours": 24,
+      "meddraCoded": true,
+      "meddraPT": "Rash",
+      "meddraSOC": "Skin and subcutaneous tissue disorders",
+      "causality": "POSSIBLE",
+      "status": "CLOSED",
+      "escalated": false
+    },
+    {
+      "id": "PV-2026-0025",
+      "studyId": "AYU-001",
+      "siteId": "SITE-01",
+      "participantToken": "SYN-P00187",
+      "event": "Nausea and vomiting (Grade 1)",
+      "serious": false,
+      "reportedAtUTC": "2026-09-22T11:00:00Z",
+      "deadlineHours": 24,
+      "meddraCoded": true,
+      "meddraPT": "Nausea",
+      "meddraSOC": "Gastrointestinal disorders",
+      "causality": "PROBABLE",
+      "status": "CLOSED",
+      "escalated": false
+    },
+    {
+      "id": "PV-2026-0033",
+      "studyId": "AYU-007",
+      "siteId": "SITE-21",
+      "participantToken": "SYN-P00539",
+      "event": "Mild dizziness on standing",
+      "serious": false,
+      "reportedAtUTC": "2026-09-27T07:30:00Z",
+      "deadlineHours": 24,
+      "meddraCoded": false,
+      "meddraPT": "",
+      "meddraSOC": "",
+      "causality": "NOT ASSESSED",
+      "status": "OPEN",
+      "escalated": false
+    }
+  ]
+}

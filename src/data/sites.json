@@ -1,0 +1,207 @@
+{
+  "sites": [
+    {
+      "id": "SITE-01", "name": "AIIA Delhi — Main Campus", "city": "New Delhi", "state": "Delhi",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "A. Verma",
+      "enrolled": 92, "target": 100, "openQueries": 8,
+      "monitoringLast": "2026-08-14", "monitoringDue": "2026-11-14",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-02", "name": "AIIA Satellite — Bengaluru", "city": "Bengaluru", "state": "Karnataka",
+      "studyIds": ["AYU-003"], "coordinator": "P. Rao",
+      "enrolled": 41, "target": 60, "openQueries": 14,
+      "monitoringLast": "2026-05-02", "monitoringDue": "2026-08-02",
+      "overdueMonitoring": true, "deviations": 2, "status": "AT RISK"
+    },
+    {
+      "id": "SITE-03", "name": "AIIA Regional Centre — Chennai", "city": "Chennai", "state": "Tamil Nadu",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "S. Krishnamurthy",
+      "enrolled": 67, "target": 80, "openQueries": 5,
+      "monitoringLast": "2026-09-01", "monitoringDue": "2026-12-01",
+      "overdueMonitoring": false, "deviations": 1, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-04", "name": "AIIA Satellite — Pune", "city": "Pune", "state": "Maharashtra",
+      "studyIds": ["AYU-003", "AYU-007"], "coordinator": "R. Deshpande",
+      "enrolled": 38, "target": 50, "openQueries": 11,
+      "monitoringLast": "2026-06-15", "monitoringDue": "2026-09-15",
+      "overdueMonitoring": true, "deviations": 3, "status": "AT RISK"
+    },
+    {
+      "id": "SITE-05", "name": "AIIA Regional Centre — Hyderabad", "city": "Hyderabad", "state": "Telangana",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "V. Reddy",
+      "enrolled": 55, "target": 70, "openQueries": 9,
+      "monitoringLast": "2026-08-20", "monitoringDue": "2026-11-20",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-06", "name": "AIIA Satellite — Ahmedabad", "city": "Ahmedabad", "state": "Gujarat",
+      "studyIds": ["AYU-003", "AYU-012"], "coordinator": "N. Shah",
+      "enrolled": 28, "target": 45, "openQueries": 17,
+      "monitoringLast": "2026-04-10", "monitoringDue": "2026-07-10",
+      "overdueMonitoring": true, "deviations": 4, "status": "AT RISK"
+    },
+    {
+      "id": "SITE-07", "name": "AIIA Regional Centre — Kochi", "city": "Kochi", "state": "Kerala",
+      "studyIds": ["AYU-003"], "coordinator": "M. Pillai",
+      "enrolled": 33, "target": 50, "openQueries": 12,
+      "monitoringLast": "2026-05-28", "monitoringDue": "2026-08-28",
+      "overdueMonitoring": true, "deviations": 2, "status": "AT RISK"
+    },
+    {
+      "id": "SITE-08", "name": "AIIA Satellite — Jaipur", "city": "Jaipur", "state": "Rajasthan",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "K. Gupta",
+      "enrolled": 44, "target": 60, "openQueries": 7,
+      "monitoringLast": "2026-07-05", "monitoringDue": "2026-10-05",
+      "overdueMonitoring": false, "deviations": 1, "status": "WATCH"
+    },
+    {
+      "id": "SITE-09", "name": "AIIA Regional Centre — Lucknow", "city": "Lucknow", "state": "Uttar Pradesh",
+      "studyIds": ["AYU-003", "AYU-007"], "coordinator": "A. Mishra",
+      "enrolled": 29, "target": 45, "openQueries": 6,
+      "monitoringLast": "2026-08-01", "monitoringDue": "2026-11-01",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-10", "name": "AIIA Satellite — Kolkata", "city": "Kolkata", "state": "West Bengal",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "D. Chatterjee",
+      "enrolled": 51, "target": 65, "openQueries": 4,
+      "monitoringLast": "2026-09-10", "monitoringDue": "2026-12-10",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-11", "name": "AIIA Regional Centre — Guwahati", "city": "Guwahati", "state": "Assam",
+      "studyIds": ["AYU-003"], "coordinator": "B. Bora",
+      "enrolled": 18, "target": 35, "openQueries": 9,
+      "monitoringLast": "2026-06-20", "monitoringDue": "2026-09-20",
+      "overdueMonitoring": true, "deviations": 1, "status": "AT RISK"
+    },
+    {
+      "id": "SITE-12", "name": "AIIA Satellite — Bhopal", "city": "Bhopal", "state": "Madhya Pradesh",
+      "studyIds": ["AYU-001", "AYU-007"], "coordinator": "S. Pandey",
+      "enrolled": 36, "target": 50, "openQueries": 3,
+      "monitoringLast": "2026-08-25", "monitoringDue": "2026-11-25",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-13", "name": "AIIA Regional Centre — Chandigarh", "city": "Chandigarh", "state": "Punjab",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "R. Singh",
+      "enrolled": 48, "target": 55, "openQueries": 2,
+      "monitoringLast": "2026-09-05", "monitoringDue": "2026-12-05",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-14", "name": "AIIA Satellite — Nagpur", "city": "Nagpur", "state": "Maharashtra",
+      "studyIds": ["AYU-003"], "coordinator": "P. Wankhede",
+      "enrolled": 22, "target": 40, "openQueries": 8,
+      "monitoringLast": "2026-07-18", "monitoringDue": "2026-10-18",
+      "overdueMonitoring": false, "deviations": 1, "status": "WATCH"
+    },
+    {
+      "id": "SITE-15", "name": "AIIA Regional Centre — Patna", "city": "Patna", "state": "Bihar",
+      "studyIds": ["AYU-007"], "coordinator": "A. Kumar",
+      "enrolled": 15, "target": 30, "openQueries": 5,
+      "monitoringLast": "2026-08-12", "monitoringDue": "2026-11-12",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-16", "name": "AIIA Satellite — Indore", "city": "Indore", "state": "Madhya Pradesh",
+      "studyIds": ["AYU-001"], "coordinator": "M. Joshi",
+      "enrolled": 30, "target": 40, "openQueries": 1,
+      "monitoringLast": "2026-09-08", "monitoringDue": "2026-12-08",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-17", "name": "AIIA Regional Centre — Thiruvananthapuram", "city": "Thiruvananthapuram", "state": "Kerala",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "S. Nair",
+      "enrolled": 39, "target": 55, "openQueries": 6,
+      "monitoringLast": "2026-08-30", "monitoringDue": "2026-11-30",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-18", "name": "AIIA Satellite — Coimbatore", "city": "Coimbatore", "state": "Tamil Nadu",
+      "studyIds": ["AYU-007"], "coordinator": "T. Murugan",
+      "enrolled": 12, "target": 25, "openQueries": 4,
+      "monitoringLast": "2026-07-22", "monitoringDue": "2026-10-22",
+      "overdueMonitoring": false, "deviations": 0, "status": "WATCH"
+    },
+    {
+      "id": "SITE-19", "name": "AIIA Regional Centre — Varanasi", "city": "Varanasi", "state": "Uttar Pradesh",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "G. Tripathi",
+      "enrolled": 43, "target": 60, "openQueries": 3,
+      "monitoringLast": "2026-09-02", "monitoringDue": "2026-12-02",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-20", "name": "AIIA Satellite — Surat", "city": "Surat", "state": "Gujarat",
+      "studyIds": ["AYU-003", "AYU-012"], "coordinator": "H. Desai",
+      "enrolled": 19, "target": 35, "openQueries": 7,
+      "monitoringLast": "2026-07-30", "monitoringDue": "2026-10-30",
+      "overdueMonitoring": false, "deviations": 1, "status": "WATCH"
+    },
+    {
+      "id": "SITE-21", "name": "AIIA Regional Centre — Mysuru", "city": "Mysuru", "state": "Karnataka",
+      "studyIds": ["AYU-007"], "coordinator": "C. Gowda",
+      "enrolled": 14, "target": 25, "openQueries": 2,
+      "monitoringLast": "2026-09-15", "monitoringDue": "2026-12-15",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-22", "name": "AIIA Satellite — Visakhapatnam", "city": "Visakhapatnam", "state": "Andhra Pradesh",
+      "studyIds": ["AYU-003"], "coordinator": "L. Prasad",
+      "enrolled": 26, "target": 40, "openQueries": 5,
+      "monitoringLast": "2026-08-05", "monitoringDue": "2026-11-05",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-23", "name": "AIIA Regional Centre — Ranchi", "city": "Ranchi", "state": "Jharkhand",
+      "studyIds": ["AYU-001"], "coordinator": "B. Sinha",
+      "enrolled": 21, "target": 30, "openQueries": 1,
+      "monitoringLast": "2026-09-12", "monitoringDue": "2026-12-12",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-24", "name": "AIIA Satellite — Amritsar", "city": "Amritsar", "state": "Punjab",
+      "studyIds": ["AYU-001", "AYU-003"], "coordinator": "H. Arora",
+      "enrolled": 35, "target": 50, "openQueries": 4,
+      "monitoringLast": "2026-08-18", "monitoringDue": "2026-11-18",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-25", "name": "AIIA Regional Centre — Raipur", "city": "Raipur", "state": "Chhattisgarh",
+      "studyIds": ["AYU-007"], "coordinator": "D. Yadav",
+      "enrolled": 9, "target": 20, "openQueries": 3,
+      "monitoringLast": "2026-09-18", "monitoringDue": "2026-12-18",
+      "overdueMonitoring": false, "deviations": 0, "status": "WATCH"
+    },
+    {
+      "id": "SITE-26", "name": "AIIA Satellite — Madurai", "city": "Madurai", "state": "Tamil Nadu",
+      "studyIds": ["AYU-003"], "coordinator": "P. Sundaram",
+      "enrolled": 17, "target": 30, "openQueries": 6,
+      "monitoringLast": "2026-07-14", "monitoringDue": "2026-10-14",
+      "overdueMonitoring": false, "deviations": 0, "status": "WATCH"
+    },
+    {
+      "id": "SITE-27", "name": "AIIA Regional Centre — Dehradun", "city": "Dehradun", "state": "Uttarakhand",
+      "studyIds": ["AYU-012"], "coordinator": "A. Rawat",
+      "enrolled": 0, "target": 40, "openQueries": 0,
+      "monitoringLast": null, "monitoringDue": "2026-12-01",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-28", "name": "AIIA Satellite — Bhubaneswar", "city": "Bhubaneswar", "state": "Odisha",
+      "studyIds": ["AYU-001", "AYU-012"], "coordinator": "S. Mohanty",
+      "enrolled": 25, "target": 40, "openQueries": 2,
+      "monitoringLast": "2026-09-20", "monitoringDue": "2026-12-20",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    },
+    {
+      "id": "SITE-29", "name": "AIIA Regional Centre — Shillong", "city": "Shillong", "state": "Meghalaya",
+      "studyIds": ["AYU-012"], "coordinator": "R. Lyngdoh",
+      "enrolled": 0, "target": 45, "openQueries": 0,
+      "monitoringLast": null, "monitoringDue": "2026-12-15",
+      "overdueMonitoring": false, "deviations": 0, "status": "ON TRACK"
+    }
+  ]
+}

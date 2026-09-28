@@ -1,0 +1,18 @@
+{
+  "features": [
+    { "category": "Experience", "items": ["Material 3 UI — clean, mobile-responsive", "1-Click Role Switcher — 8 role dashboards"] },
+    { "category": "Compliance", "items": ["CDISC & HL7 FHIR R4 interoperability", "Compliance integration — GCP, CTRI, IEC, MedDRA"] },
+    { "category": "Safety",     "items": ["Live 24H SAE countdown clock", "MedDRA Coding Gate for AE/SAE"] },
+    { "category": "Access",     "items": ["RBAC matrix — role-based data views", "ALCOA+ hash-chained audit trail"] }
+  ],
+  "roles": [
+    { "id": "pi",          "name": "Principal Investigator",   "email": "pi@aiia.demo",          "sees": ["dashboard","sites","study","safety","alerts"] },
+    { "id": "coordinator", "name": "Study Coordinator",        "email": "coordinator@aiia.demo",  "sees": ["dashboard","study"] },
+    { "id": "monitor",     "name": "Clinical Monitor (CRA)",   "email": "monitor@aiia.demo",      "sees": ["dashboard","sites","alerts"] },
+    { "id": "pv",          "name": "Pharmacovigilance Officer","email": "pv@aiia.demo",           "sees": ["dashboard","safety","alerts"] },
+    { "id": "iec",         "name": "Ethics Committee (IEC)",   "email": "ethics@aiia.demo",       "sees": ["dashboard","study","alerts"] },
+    { "id": "leadership",  "name": "Institutional Leadership", "email": "leadership@aiia.demo",   "sees": ["dashboard","sites","study"] },
+    { "id": "regulator",   "name": "Regulatory Auditor",       "email": "regulator@aiia.demo",    "sees": ["dashboard","study"] },
+    { "id": "admin",       "name": "System Administrator",     "email": "admin@aiia.demo",        "sees": ["dashboard","sites","study","safety","alerts"] }
+  ]
+}
